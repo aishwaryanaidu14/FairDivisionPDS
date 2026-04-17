@@ -60,8 +60,8 @@ export default function Sidebar({ active, onSelect, hasPdf }) {
         {/* PDF download button — prominent */}
         {hasPdf && (
           <a
-            href="/FairDivisionPDS-AishwaryaNaidu.pdf"
-            download="FairDivisionPDS-AishwaryaNaidu.pdf"
+            href="./FairDivisionPDS-AishwaryaNaidu.pdf"
+            download="./FairDivisionPDS-AishwaryaNaidu.pdf"
             style={{
               display: 'flex', alignItems: 'center', gap: 8,
               marginTop: 14, padding: '9px 14px',

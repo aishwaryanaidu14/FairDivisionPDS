@@ -1,0 +1,1582 @@
+{
+  "constants": {
+    "M_R": 35900.93,
+    "M_W": 16210.89,
+    "n_total": 211256318.0,
+    "k_opt": 0.3605,
+    "u_star": -8.978819226225488,
+    "a_star": 0.3131
+  },
+  "geo_to_csv": {
+    "Tamil Nadu": "Tamil Nadu",
+    "Puducherry": "Puducherry",
+    "Himachal Pradesh": "Himachal Pradesh",
+    "Sikkim": "Sikkim",
+    "Delhi": "Delhi",
+    "Uttar Pradesh": "Uttar Pradesh",
+    "Haryana": "Haryana",
+    "Punjab": "Punjab",
+    "Chandigarh": "Chandigarh",
+    "Rajasthan": "Rajasthan",
+    "Jammu and Kashmir": "Jammu & Kashmir",
+    "Gujarat": "Gujarat",
+    "Madhya Pradesh": "Madhya Pradesh",
+    "Maharashtra": "Maharashtra",
+    "Dadra and Nagar Haveli and Daman and Diu": "Dadra & Nagar Haveli & Daman & Diu",
+    "Bihar": "Bihar",
+    "West Bengal": "West Bengal",
+    "Jharkhand": "Jharkhand",
+    "Chhattisgarh": "Chhattisgarh",
+    "Odisha": "Odisha",
+    "Kerala": "Kerala",
+    "Karnataka": "Karnataka",
+    "Andhra Pradesh": "Andhra Pradesh",
+    "Andaman and Nicobar Islands": "Andaman & Nicobar Islands",
+    "Assam": "Assam",
+    "Tripura": "Tripura",
+    "Arunachal Pradesh": "Arunachal Pradesh",
+    "Lakshadweep": "Lakshadweep",
+    "Meghalaya": "Meghalaya",
+    "Manipur": "Manipur",
+    "Nagaland": "Nagaland",
+    "Mizoram": "Mizoram",
+    "Telangana": "Telangana",
+    "Ladakh": "Ladakh",
+    "Uttarakhand": "Uttarakhand",
+    "Goa": "Goa"
+  },
+  "metrics": [
+    {
+      "rule": "PRO",
+      "min_u": -9.440716914286947,
+      "max_u": -8.716876809016338,
+      "range_u": 0.7238401052706092,
+      "std_u": 0.2598707208286717,
+      "pop_std_u": 0.19637597306614574,
+      "sum_nu": -1917303312.6247694,
+      "atkinson": 0.06486794990809952,
+      "pop_atkinson": 0.037760982256788256
+    },
+    {
+      "rule": "wNSW",
+      "min_u": -9.152237386363119,
+      "max_u": -8.215491189163888,
+      "range_u": 0.9367461971992306,
+      "std_u": 0.3557424181369233,
+      "pop_std_u": 0.295744960168325,
+      "sum_nu": -1887596094.1317174,
+      "atkinson": 0.11705754379702271,
+      "pop_atkinson": 0.0839520436989849
+    },
+    {
+      "rule": "Atkinson",
+      "min_u": -9.065992511389915,
+      "max_u": -8.55837355125585,
+      "range_u": 0.5076189601340655,
+      "std_u": 0.19536248431915093,
+      "pop_std_u": 0.1601538883478807,
+      "sum_nu": -1889733152.1432555,
+      "atkinson": 0.037258736106911994,
+      "pop_atkinson": 0.025342286950551407
+    },
+    {
+      "rule": "Leximin",
+      "min_u": -8.978819226225488,
+      "max_u": -8.978819226225484,
+      "range_u": 3.552713678800501e-15,
+      "std_u": 1.0255800994045674e-15,
+      "pop_std_u": 5.974541900399766e-16,
+      "sum_nu": -1896832289.7200053,
+      "atkinson": -4.440892098500626e-16,
+      "pop_atkinson": -2.220446049250313e-16
+    }
+  ],
+  "metrics_B": [
+    {
+      "rule": "PRO",
+      "min_u": -9.440453791683595,
+      "max_u": -8.716613686412988,
+      "range_u": 0.7238401052706074,
+      "std_u": 0.25388355356228753,
+      "pop_std_u": 0.19632998681906857,
+      "sum_nu": -1916733109.056715,
+      "atkinson": 0.06205113121439221,
+      "pop_atkinson": 0.0377437356985203
+    },
+    {
+      "rule": "wNSW",
+      "min_u": -9.15193212914604,
+      "max_u": -8.215337855347034,
+      "range_u": 0.9365942737990061,
+      "std_u": 0.35585901916892565,
+      "pop_std_u": 0.2956958213950773,
+      "sum_nu": -1887047793.553039,
+      "atkinson": 0.11715398453601977,
+      "pop_atkinson": 0.0839253976917197
+    },
+    {
+      "rule": "Atkinson",
+      "min_u": -9.065706167912207,
+      "max_u": -8.558185523517299,
+      "range_u": 0.5075206443949085,
+      "std_u": 0.19498343895378326,
+      "pop_std_u": 0.16012212539386944,
+      "sum_nu": -1889183622.6567202,
+      "atkinson": 0.03712051898922997,
+      "pop_atkinson": 0.02533236831067487
+    },
+    {
+      "rule": "Leximin",
+      "min_u": -8.978558615863447,
+      "max_u": -8.978558615863445,
+      "range_u": 1.7763568394002505e-15,
+      "std_u": 6.812017517597816e-16,
+      "pop_std_u": 1.6604821054935368e-15,
+      "sum_nu": -1896278214.8251772,
+      "atkinson": -2.220446049250313e-16,
+      "pop_atkinson": 2.220446049250313e-16
+    }
+  ],
+  "states": [
+    {
+      "name": "Andaman & Nicobar Islands",
+      "H_i": 0.023,
+      "sigma_i": 0.0052,
+      "n_i": 9292,
+      "a_i": 0.8123,
+      "rice_nfsa": 3.84,
+      "wheat_nfsa": 0.53,
+      "u_nfsa": -8.1639,
+      "alloc": {
+        "PRO": {
+          "xR": 1.58,
+          "xW": 0.71,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.8293
+        },
+        "wNSW": {
+          "xR": 2.55,
+          "xW": 0.27,
+          "rice_kg_pc": 274.8,
+          "wheat_kg_pc": 28.9,
+          "u": -8.622
+        },
+        "Atkinson": {
+          "xR": 2.25,
+          "xW": 0.21,
+          "rice_kg_pc": 242.3,
+          "wheat_kg_pc": 22.6,
+          "u": -8.7701
+        },
+        "Leximin": {
+          "xR": 1.87,
+          "xW": 0.16,
+          "rice_kg_pc": 201.0,
+          "wheat_kg_pc": 16.7,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Andhra Pradesh",
+      "H_i": 0.0606,
+      "sigma_i": 0.004,
+      "n_i": 3232404,
+      "a_i": 0.9406,
+      "rice_nfsa": 1849.78,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 549.32,
+          "xW": 248.04,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.7273
+        },
+        "wNSW": {
+          "xR": 1028.5,
+          "xW": 29.61,
+          "rice_kg_pc": 318.2,
+          "wheat_kg_pc": 9.2,
+          "u": -8.2636
+        },
+        "Atkinson": {
+          "xR": 752.48,
+          "xW": 19.22,
+          "rice_kg_pc": 232.8,
+          "wheat_kg_pc": 5.9,
+          "u": -8.5832
+        },
+        "Leximin": {
+          "xR": 510.1,
+          "xW": 11.61,
+          "rice_kg_pc": 157.8,
+          "wheat_kg_pc": 3.6,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Arunachal Pradesh",
+      "H_i": 0.1376,
+      "sigma_i": 0.0054,
+      "n_i": 216858,
+      "a_i": 0.9537,
+      "rice_nfsa": 57.49,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 36.85,
+          "xW": 16.64,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.7169
+        },
+        "wNSW": {
+          "xR": 69.96,
+          "xW": 1.55,
+          "rice_kg_pc": 322.6,
+          "wheat_kg_pc": 7.1,
+          "u": -8.2155
+        },
+        "Atkinson": {
+          "xR": 49.93,
+          "xW": 0.98,
+          "rice_kg_pc": 230.2,
+          "wheat_kg_pc": 4.5,
+          "u": -8.5584
+        },
+        "Leximin": {
+          "xR": 32.97,
+          "xW": 0.58,
+          "rice_kg_pc": 152.0,
+          "wheat_kg_pc": 2.7,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Assam",
+      "H_i": 0.1935,
+      "sigma_i": 0.0052,
+      "n_i": 6975094,
+      "a_i": 0.9537,
+      "rice_nfsa": 1640.2,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 1185.35,
+          "xW": 535.24,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.7169
+        },
+        "wNSW": {
+          "xR": 2250.27,
+          "xW": 49.8,
+          "rice_kg_pc": 322.6,
+          "wheat_kg_pc": 7.1,
+          "u": -8.2155
+        },
+        "Atkinson": {
+          "xR": 1605.95,
+          "xW": 31.53,
+          "rice_kg_pc": 230.2,
+          "wheat_kg_pc": 4.5,
+          "u": -8.5584
+        },
+        "Leximin": {
+          "xR": 1060.34,
+          "xW": 18.56,
+          "rice_kg_pc": 152.0,
+          "wheat_kg_pc": 2.7,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Bihar",
+      "H_i": 0.3376,
+      "sigma_i": 0.0049,
+      "n_i": 43412659,
+      "a_i": 0.5257,
+      "rice_nfsa": 4421.68,
+      "wheat_nfsa": 1105.42,
+      "u_nfsa": -9.8495,
+      "alloc": {
+        "PRO": {
+          "xR": 7377.55,
+          "xW": 3331.3,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -9.0572
+        },
+        "wNSW": {
+          "xR": 7720.18,
+          "xW": 3175.12,
+          "rice_kg_pc": 177.8,
+          "wheat_kg_pc": 73.1,
+          "u": -9.0561
+        },
+        "Atkinson": {
+          "xR": 8605.81,
+          "xW": 3139.71,
+          "rice_kg_pc": 198.2,
+          "wheat_kg_pc": 72.3,
+          "u": -9.0043
+        },
+        "Leximin": {
+          "xR": 9322.7,
+          "xW": 3031.89,
+          "rice_kg_pc": 214.7,
+          "wheat_kg_pc": 69.8,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Chandigarh",
+      "H_i": 0.0352,
+      "sigma_i": 0.0146,
+      "n_i": 43754,
+      "a_i": 0.0941,
+      "rice_nfsa": 0.0,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 7.44,
+          "xW": 3.36,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -9.4003
+        },
+        "wNSW": {
+          "xR": 1.39,
+          "xW": 6.11,
+          "rice_kg_pc": 31.8,
+          "wheat_kg_pc": 139.7,
+          "u": -9.0152
+        },
+        "Atkinson": {
+          "xR": 1.56,
+          "xW": 6.08,
+          "rice_kg_pc": 35.7,
+          "wheat_kg_pc": 138.9,
+          "u": -9.0097
+        },
+        "Leximin": {
+          "xR": 1.79,
+          "xW": 6.2,
+          "rice_kg_pc": 40.8,
+          "wheat_kg_pc": 141.7,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Chhattisgarh",
+      "H_i": 0.1637,
+      "sigma_i": 0.0046,
+      "n_i": 4996779,
+      "a_i": 0.915,
+      "rice_nfsa": 1384.06,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 849.15,
+          "xW": 383.43,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.7476
+        },
+        "wNSW": {
+          "xR": 1546.62,
+          "xW": 65.49,
+          "rice_kg_pc": 309.5,
+          "wheat_kg_pc": 13.1,
+          "u": -8.3492
+        },
+        "Atkinson": {
+          "xR": 1182.85,
+          "xW": 44.43,
+          "rice_kg_pc": 236.7,
+          "wheat_kg_pc": 8.9,
+          "u": -8.6276
+        },
+        "Leximin": {
+          "xR": 840.67,
+          "xW": 28.15,
+          "rice_kg_pc": 168.2,
+          "wheat_kg_pc": 5.6,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Dadra & Nagar Haveli & Daman & Diu",
+      "H_i": 0.0921,
+      "sigma_i": 0.0102,
+      "n_i": 60564,
+      "a_i": 0.3292,
+      "rice_nfsa": 13.7,
+      "wheat_nfsa": 1.42,
+      "u_nfsa": -9.9164,
+      "alloc": {
+        "PRO": {
+          "xR": 10.29,
+          "xW": 4.65,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -9.2134
+        },
+        "wNSW": {
+          "xR": 6.74,
+          "xW": 6.26,
+          "rice_kg_pc": 111.4,
+          "wheat_kg_pc": 103.4,
+          "u": -9.1522
+        },
+        "Atkinson": {
+          "xR": 7.98,
+          "xW": 6.58,
+          "rice_kg_pc": 131.8,
+          "wheat_kg_pc": 108.6,
+          "u": -9.0642
+        },
+        "Leximin": {
+          "xR": 9.39,
+          "xW": 6.9,
+          "rice_kg_pc": 155.0,
+          "wheat_kg_pc": 113.9,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Delhi",
+      "H_i": 0.0343,
+      "sigma_i": 0.0029,
+      "n_i": 746094,
+      "a_i": 0.3782,
+      "rice_nfsa": 179.52,
+      "wheat_nfsa": 269.28,
+      "u_nfsa": -8.0802,
+      "alloc": {
+        "PRO": {
+          "xR": 126.79,
+          "xW": 57.25,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -9.1744
+        },
+        "wNSW": {
+          "xR": 95.45,
+          "xW": 71.54,
+          "rice_kg_pc": 127.9,
+          "wheat_kg_pc": 95.9,
+          "u": -9.1433
+        },
+        "Atkinson": {
+          "xR": 112.13,
+          "xW": 74.55,
+          "rice_kg_pc": 150.3,
+          "wheat_kg_pc": 99.9,
+          "u": -9.0568
+        },
+        "Leximin": {
+          "xR": 130.2,
+          "xW": 77.16,
+          "rice_kg_pc": 174.5,
+          "wheat_kg_pc": 103.4,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Goa",
+      "H_i": 0.0084,
+      "sigma_i": 0.0031,
+      "n_i": 13297,
+      "a_i": 0.8214,
+      "rice_nfsa": 34.4,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 2.26,
+          "xW": 1.02,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.8221
+        },
+        "wNSW": {
+          "xR": 3.69,
+          "xW": 0.37,
+          "rice_kg_pc": 277.9,
+          "wheat_kg_pc": 27.5,
+          "u": -8.6012
+        },
+        "Atkinson": {
+          "xR": 3.22,
+          "xW": 0.28,
+          "rice_kg_pc": 242.4,
+          "wheat_kg_pc": 21.3,
+          "u": -8.7592
+        },
+        "Leximin": {
+          "xR": 2.64,
+          "xW": 0.21,
+          "rice_kg_pc": 198.6,
+          "wheat_kg_pc": 15.6,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Gujarat",
+      "H_i": 0.1166,
+      "sigma_i": 0.0044,
+      "n_i": 8437992,
+      "a_i": 0.3292,
+      "rice_nfsa": 1267.67,
+      "wheat_nfsa": 1037.18,
+      "u_nfsa": -8.9379,
+      "alloc": {
+        "PRO": {
+          "xR": 1433.95,
+          "xW": 647.5,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -9.2134
+        },
+        "wNSW": {
+          "xR": 939.66,
+          "xW": 872.81,
+          "rice_kg_pc": 111.4,
+          "wheat_kg_pc": 103.4,
+          "u": -9.1522
+        },
+        "Atkinson": {
+          "xR": 1112.06,
+          "xW": 916.32,
+          "rice_kg_pc": 131.8,
+          "wheat_kg_pc": 108.6,
+          "u": -9.0642
+        },
+        "Leximin": {
+          "xR": 1308.22,
+          "xW": 960.88,
+          "rice_kg_pc": 155.0,
+          "wheat_kg_pc": 113.9,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Haryana",
+      "H_i": 0.0707,
+      "sigma_i": 0.0035,
+      "n_i": 2161511,
+      "a_i": 0.0804,
+      "rice_nfsa": 0.0,
+      "wheat_nfsa": 491.06,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 367.33,
+          "xW": 165.87,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -9.4112
+        },
+        "wNSW": {
+          "xR": 58.79,
+          "xW": 306.51,
+          "rice_kg_pc": 27.2,
+          "wheat_kg_pc": 141.8,
+          "u": -8.9938
+        },
+        "Atkinson": {
+          "xR": 65.24,
+          "xW": 301.75,
+          "rice_kg_pc": 30.2,
+          "wheat_kg_pc": 139.6,
+          "u": -8.9999
+        },
+        "Leximin": {
+          "xR": 74.06,
+          "xW": 305.33,
+          "rice_kg_pc": 34.3,
+          "wheat_kg_pc": 141.3,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Himachal Pradesh",
+      "H_i": 0.0493,
+      "sigma_i": 0.0043,
+      "n_i": 369996,
+      "a_i": 0.0941,
+      "rice_nfsa": 85.72,
+      "wheat_nfsa": 121.99,
+      "u_nfsa": -8.0505,
+      "alloc": {
+        "PRO": {
+          "xR": 62.88,
+          "xW": 28.39,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -9.4003
+        },
+        "wNSW": {
+          "xR": 11.78,
+          "xW": 51.69,
+          "rice_kg_pc": 31.8,
+          "wheat_kg_pc": 139.7,
+          "u": -9.0152
+        },
+        "Atkinson": {
+          "xR": 13.2,
+          "xW": 51.39,
+          "rice_kg_pc": 35.7,
+          "wheat_kg_pc": 138.9,
+          "u": -9.0097
+        },
+        "Leximin": {
+          "xR": 15.11,
+          "xW": 52.43,
+          "rice_kg_pc": 40.8,
+          "wheat_kg_pc": 141.7,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Jammu & Kashmir",
+      "H_i": 0.048,
+      "sigma_i": 0.0032,
+      "n_i": 657648,
+      "a_i": 0.7176,
+      "rice_nfsa": 332.84,
+      "wheat_nfsa": 135.96,
+      "u_nfsa": -7.8416,
+      "alloc": {
+        "PRO": {
+          "xR": 111.76,
+          "xW": 50.47,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.9046
+        },
+        "wNSW": {
+          "xR": 159.64,
+          "xW": 28.64,
+          "rice_kg_pc": 242.7,
+          "wheat_kg_pc": 43.5,
+          "u": -8.8087
+        },
+        "Atkinson": {
+          "xR": 155.45,
+          "xW": 24.74,
+          "rice_kg_pc": 236.4,
+          "wheat_kg_pc": 37.6,
+          "u": -8.8691
+        },
+        "Leximin": {
+          "xR": 143.9,
+          "xW": 20.41,
+          "rice_kg_pc": 218.8,
+          "wheat_kg_pc": 31.0,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Jharkhand",
+      "H_i": 0.2881,
+      "sigma_i": 0.0059,
+      "n_i": 11513340,
+      "a_i": 0.6811,
+      "rice_nfsa": 1401.59,
+      "wheat_nfsa": 350.4,
+      "u_nfsa": -9.4557,
+      "alloc": {
+        "PRO": {
+          "xR": 1956.58,
+          "xW": 883.48,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.9336
+        },
+        "wNSW": {
+          "xR": 2652.68,
+          "xW": 566.17,
+          "rice_kg_pc": 230.4,
+          "wheat_kg_pc": 49.2,
+          "u": -8.8682
+        },
+        "Atkinson": {
+          "xR": 2666.92,
+          "xW": 504.94,
+          "rice_kg_pc": 231.6,
+          "wheat_kg_pc": 43.9,
+          "u": -8.9011
+        },
+        "Leximin": {
+          "xR": 2559.55,
+          "xW": 431.98,
+          "rice_kg_pc": 222.3,
+          "wheat_kg_pc": 37.5,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Karnataka",
+      "H_i": 0.0758,
+      "sigma_i": 0.0031,
+      "n_i": 5163117,
+      "a_i": 0.8214,
+      "rice_nfsa": 2136.64,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 877.42,
+          "xW": 396.2,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.8221
+        },
+        "wNSW": {
+          "xR": 1434.63,
+          "xW": 142.19,
+          "rice_kg_pc": 277.9,
+          "wheat_kg_pc": 27.5,
+          "u": -8.6012
+        },
+        "Atkinson": {
+          "xR": 1251.52,
+          "xW": 110.04,
+          "rice_kg_pc": 242.4,
+          "wheat_kg_pc": 21.3,
+          "u": -8.7592
+        },
+        "Leximin": {
+          "xR": 1025.56,
+          "xW": 80.38,
+          "rice_kg_pc": 198.6,
+          "wheat_kg_pc": 15.6,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Kerala",
+      "H_i": 0.0055,
+      "sigma_i": 0.001,
+      "n_i": 197560,
+      "a_i": 0.8758,
+      "rice_nfsa": 837.96,
+      "wheat_nfsa": 187.55,
+      "u_nfsa": -5.6487,
+      "alloc": {
+        "PRO": {
+          "xR": 33.57,
+          "xW": 15.16,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.7788
+        },
+        "wNSW": {
+          "xR": 58.53,
+          "xW": 3.78,
+          "rice_kg_pc": 296.3,
+          "wheat_kg_pc": 19.2,
+          "u": -8.4644
+        },
+        "Atkinson": {
+          "xR": 47.53,
+          "xW": 2.73,
+          "rice_kg_pc": 240.6,
+          "wheat_kg_pc": 13.8,
+          "u": -8.6875
+        },
+        "Leximin": {
+          "xR": 36.03,
+          "xW": 1.84,
+          "rice_kg_pc": 182.4,
+          "wheat_kg_pc": 9.3,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Ladakh",
+      "H_i": 0.0353,
+      "sigma_i": 0.0061,
+      "n_i": 10661,
+      "a_i": 0.0941,
+      "rice_nfsa": 4.21,
+      "wheat_nfsa": 5.23,
+      "u_nfsa": -7.64,
+      "alloc": {
+        "PRO": {
+          "xR": 1.81,
+          "xW": 0.82,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -9.4003
+        },
+        "wNSW": {
+          "xR": 0.34,
+          "xW": 1.49,
+          "rice_kg_pc": 31.8,
+          "wheat_kg_pc": 139.7,
+          "u": -9.0152
+        },
+        "Atkinson": {
+          "xR": 0.38,
+          "xW": 1.48,
+          "rice_kg_pc": 35.7,
+          "wheat_kg_pc": 138.9,
+          "u": -9.0097
+        },
+        "Leximin": {
+          "xR": 0.44,
+          "xW": 1.51,
+          "rice_kg_pc": 40.8,
+          "wheat_kg_pc": 141.7,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Lakshadweep",
+      "H_i": 0.0111,
+      "sigma_i": 0.0063,
+      "n_i": 766,
+      "a_i": 0.8758,
+      "rice_nfsa": 1.52,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 0.13,
+          "xW": 0.06,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.7788
+        },
+        "wNSW": {
+          "xR": 0.23,
+          "xW": 0.01,
+          "rice_kg_pc": 296.3,
+          "wheat_kg_pc": 19.2,
+          "u": -8.4644
+        },
+        "Atkinson": {
+          "xR": 0.18,
+          "xW": 0.01,
+          "rice_kg_pc": 240.6,
+          "wheat_kg_pc": 13.8,
+          "u": -8.6875
+        },
+        "Leximin": {
+          "xR": 0.14,
+          "xW": 0.01,
+          "rice_kg_pc": 182.4,
+          "wheat_kg_pc": 9.3,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Madhya Pradesh",
+      "H_i": 0.2063,
+      "sigma_i": 0.0039,
+      "n_i": 18073943,
+      "a_i": 0.2756,
+      "rice_nfsa": 2096.28,
+      "wheat_nfsa": 1397.52,
+      "u_nfsa": -9.3558,
+      "alloc": {
+        "PRO": {
+          "xR": 3071.49,
+          "xW": 1386.92,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -9.256
+        },
+        "wNSW": {
+          "xR": 1685.02,
+          "xW": 2018.93,
+          "rice_kg_pc": 93.2,
+          "wheat_kg_pc": 111.7,
+          "u": -9.1495
+        },
+        "Atkinson": {
+          "xR": 1997.83,
+          "xW": 2123.44,
+          "rice_kg_pc": 110.5,
+          "wheat_kg_pc": 117.5,
+          "u": -9.066
+        },
+        "Leximin": {
+          "xR": 2369.1,
+          "xW": 2244.61,
+          "rice_kg_pc": 131.1,
+          "wheat_kg_pc": 124.2,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Maharashtra",
+      "H_i": 0.0781,
+      "sigma_i": 0.0035,
+      "n_i": 9946816,
+      "a_i": 0.4096,
+      "rice_nfsa": 2947.32,
+      "wheat_nfsa": 1657.87,
+      "u_nfsa": -8.4638,
+      "alloc": {
+        "PRO": {
+          "xR": 1690.36,
+          "xW": 763.28,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -9.1495
+        },
+        "wNSW": {
+          "xR": 1378.21,
+          "xW": 905.57,
+          "rice_kg_pc": 138.6,
+          "wheat_kg_pc": 91.0,
+          "u": -9.1322
+        },
+        "Atkinson": {
+          "xR": 1607.04,
+          "xW": 936.69,
+          "rice_kg_pc": 161.6,
+          "wheat_kg_pc": 94.2,
+          "u": -9.0493
+        },
+        "Leximin": {
+          "xR": 1845.51,
+          "xW": 958.87,
+          "rice_kg_pc": 185.5,
+          "wheat_kg_pc": 96.4,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Manipur",
+      "H_i": 0.081,
+      "sigma_i": 0.006,
+      "n_i": 263493,
+      "a_i": 0.9537,
+      "rice_nfsa": 140.5,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 44.78,
+          "xW": 20.22,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.7169
+        },
+        "wNSW": {
+          "xR": 85.01,
+          "xW": 1.88,
+          "rice_kg_pc": 322.6,
+          "wheat_kg_pc": 7.1,
+          "u": -8.2155
+        },
+        "Atkinson": {
+          "xR": 60.67,
+          "xW": 1.19,
+          "rice_kg_pc": 230.2,
+          "wheat_kg_pc": 4.5,
+          "u": -8.5584
+        },
+        "Leximin": {
+          "xR": 40.06,
+          "xW": 0.7,
+          "rice_kg_pc": 152.0,
+          "wheat_kg_pc": 2.7,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Meghalaya",
+      "H_i": 0.2779,
+      "sigma_i": 0.0109,
+      "n_i": 939024,
+      "a_i": 0.9537,
+      "rice_nfsa": 140.74,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 159.58,
+          "xW": 72.06,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.7169
+        },
+        "wNSW": {
+          "xR": 302.94,
+          "xW": 6.7,
+          "rice_kg_pc": 322.6,
+          "wheat_kg_pc": 7.1,
+          "u": -8.2155
+        },
+        "Atkinson": {
+          "xR": 216.2,
+          "xW": 4.24,
+          "rice_kg_pc": 230.2,
+          "wheat_kg_pc": 4.5,
+          "u": -8.5584
+        },
+        "Leximin": {
+          "xR": 142.75,
+          "xW": 2.5,
+          "rice_kg_pc": 152.0,
+          "wheat_kg_pc": 2.7,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Mizoram",
+      "H_i": 0.053,
+      "sigma_i": 0.0056,
+      "n_i": 66250,
+      "a_i": 0.9537,
+      "rice_nfsa": 49.32,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 11.26,
+          "xW": 5.08,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.7169
+        },
+        "wNSW": {
+          "xR": 21.37,
+          "xW": 0.47,
+          "rice_kg_pc": 322.6,
+          "wheat_kg_pc": 7.1,
+          "u": -8.2155
+        },
+        "Atkinson": {
+          "xR": 15.25,
+          "xW": 0.3,
+          "rice_kg_pc": 230.2,
+          "wheat_kg_pc": 4.5,
+          "u": -8.5584
+        },
+        "Leximin": {
+          "xR": 10.07,
+          "xW": 0.18,
+          "rice_kg_pc": 152.0,
+          "wheat_kg_pc": 2.7,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Nagaland",
+      "H_i": 0.1543,
+      "sigma_i": 0.0081,
+      "n_i": 347638,
+      "a_i": 0.9537,
+      "rice_nfsa": 91.6,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 59.08,
+          "xW": 26.68,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.7169
+        },
+        "wNSW": {
+          "xR": 112.15,
+          "xW": 2.48,
+          "rice_kg_pc": 322.6,
+          "wheat_kg_pc": 7.1,
+          "u": -8.2155
+        },
+        "Atkinson": {
+          "xR": 80.04,
+          "xW": 1.57,
+          "rice_kg_pc": 230.2,
+          "wheat_kg_pc": 4.5,
+          "u": -8.5584
+        },
+        "Leximin": {
+          "xR": 52.85,
+          "xW": 0.92,
+          "rice_kg_pc": 152.0,
+          "wheat_kg_pc": 2.7,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Odisha",
+      "H_i": 0.1568,
+      "sigma_i": 0.005,
+      "n_i": 7301549,
+      "a_i": 0.9135,
+      "rice_nfsa": 2251.82,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 1240.83,
+          "xW": 560.29,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.7488
+        },
+        "wNSW": {
+          "xR": 2256.3,
+          "xW": 97.39,
+          "rice_kg_pc": 309.0,
+          "wheat_kg_pc": 13.3,
+          "u": -8.354
+        },
+        "Atkinson": {
+          "xR": 1729.85,
+          "xW": 66.24,
+          "rice_kg_pc": 236.9,
+          "wheat_kg_pc": 9.1,
+          "u": -8.63
+        },
+        "Leximin": {
+          "xR": 1232.66,
+          "xW": 42.07,
+          "rice_kg_pc": 168.8,
+          "wheat_kg_pc": 5.8,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Puducherry",
+      "H_i": 0.0085,
+      "sigma_i": 0.0027,
+      "n_i": 11825,
+      "a_i": 0.9268,
+      "rice_nfsa": 0.0,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 2.01,
+          "xW": 0.91,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.7383
+        },
+        "wNSW": {
+          "xR": 3.71,
+          "xW": 0.13,
+          "rice_kg_pc": 313.5,
+          "wheat_kg_pc": 11.3,
+          "u": -8.311
+        },
+        "Atkinson": {
+          "xR": 2.78,
+          "xW": 0.09,
+          "rice_kg_pc": 235.1,
+          "wheat_kg_pc": 7.5,
+          "u": -8.6077
+        },
+        "Leximin": {
+          "xR": 1.93,
+          "xW": 0.06,
+          "rice_kg_pc": 163.6,
+          "wheat_kg_pc": 4.7,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Punjab",
+      "H_i": 0.0475,
+      "sigma_i": 0.0025,
+      "n_i": 1468985,
+      "a_i": 0.0941,
+      "rice_nfsa": 0.0,
+      "wheat_nfsa": 870.12,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 249.64,
+          "xW": 112.72,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -9.4003
+        },
+        "wNSW": {
+          "xR": 46.76,
+          "xW": 205.2,
+          "rice_kg_pc": 31.8,
+          "wheat_kg_pc": 139.7,
+          "u": -9.0152
+        },
+        "Atkinson": {
+          "xR": 52.41,
+          "xW": 204.02,
+          "rice_kg_pc": 35.7,
+          "wheat_kg_pc": 138.9,
+          "u": -9.0097
+        },
+        "Leximin": {
+          "xR": 59.99,
+          "xW": 208.17,
+          "rice_kg_pc": 40.8,
+          "wheat_kg_pc": 141.7,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Rajasthan",
+      "H_i": 0.1531,
+      "sigma_i": 0.0039,
+      "n_i": 12538431,
+      "a_i": 0.0433,
+      "rice_nfsa": 0.0,
+      "wheat_nfsa": 2770.58,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 2130.78,
+          "xW": 962.14,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -9.4407
+        },
+        "wNSW": {
+          "xR": 183.66,
+          "xW": 1849.73,
+          "rice_kg_pc": 14.6,
+          "wheat_kg_pc": 147.5,
+          "u": -8.9215
+        },
+        "Atkinson": {
+          "xR": 197.02,
+          "xW": 1760.24,
+          "rice_kg_pc": 15.7,
+          "wheat_kg_pc": 140.4,
+          "u": -8.9659
+        },
+        "Leximin": {
+          "xR": 217.1,
+          "xW": 1729.06,
+          "rice_kg_pc": 17.3,
+          "wheat_kg_pc": 137.9,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Sikkim",
+      "H_i": 0.026,
+      "sigma_i": 0.004,
+      "n_i": 18070,
+      "a_i": 0.8123,
+      "rice_nfsa": 26.38,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 3.07,
+          "xW": 1.39,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.8293
+        },
+        "wNSW": {
+          "xR": 4.97,
+          "xW": 0.52,
+          "rice_kg_pc": 274.8,
+          "wheat_kg_pc": 28.9,
+          "u": -8.622
+        },
+        "Atkinson": {
+          "xR": 4.38,
+          "xW": 0.41,
+          "rice_kg_pc": 242.3,
+          "wheat_kg_pc": 22.6,
+          "u": -8.7701
+        },
+        "Leximin": {
+          "xR": 3.63,
+          "xW": 0.3,
+          "rice_kg_pc": 201.0,
+          "wheat_kg_pc": 16.7,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Tamil Nadu",
+      "H_i": 0.022,
+      "sigma_i": 0.0012,
+      "n_i": 1695958,
+      "a_i": 0.9268,
+      "rice_nfsa": 2469.9,
+      "wheat_nfsa": 102.91,
+      "u_nfsa": -6.7645,
+      "alloc": {
+        "PRO": {
+          "xR": 288.21,
+          "xW": 130.14,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.7383
+        },
+        "wNSW": {
+          "xR": 531.71,
+          "xW": 19.14,
+          "rice_kg_pc": 313.5,
+          "wheat_kg_pc": 11.3,
+          "u": -8.311
+        },
+        "Atkinson": {
+          "xR": 398.67,
+          "xW": 12.73,
+          "rice_kg_pc": 235.1,
+          "wheat_kg_pc": 7.5,
+          "u": -8.6077
+        },
+        "Leximin": {
+          "xR": 277.4,
+          "xW": 7.9,
+          "rice_kg_pc": 163.6,
+          "wheat_kg_pc": 4.7,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Telangana",
+      "H_i": 0.0588,
+      "sigma_i": 0.0022,
+      "n_i": 2250394,
+      "a_i": 0.9382,
+      "rice_nfsa": 1290.79,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 382.43,
+          "xW": 172.69,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.7292
+        },
+        "wNSW": {
+          "xR": 714.21,
+          "xW": 21.45,
+          "rice_kg_pc": 317.4,
+          "wheat_kg_pc": 9.5,
+          "u": -8.2721
+        },
+        "Atkinson": {
+          "xR": 524.83,
+          "xW": 13.98,
+          "rice_kg_pc": 233.2,
+          "wheat_kg_pc": 6.2,
+          "u": -8.5876
+        },
+        "Leximin": {
+          "xR": 357.44,
+          "xW": 8.49,
+          "rice_kg_pc": 158.8,
+          "wheat_kg_pc": 3.8,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Tripura",
+      "H_i": 0.1311,
+      "sigma_i": 0.0071,
+      "n_i": 548522,
+      "a_i": 0.8123,
+      "rice_nfsa": 164.58,
+      "wheat_nfsa": 0.0,
+      "u_nfsa": null,
+      "alloc": {
+        "PRO": {
+          "xR": 93.22,
+          "xW": 42.09,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.8293
+        },
+        "wNSW": {
+          "xR": 150.72,
+          "xW": 15.88,
+          "rice_kg_pc": 274.8,
+          "wheat_kg_pc": 28.9,
+          "u": -8.622
+        },
+        "Atkinson": {
+          "xR": 132.93,
+          "xW": 12.42,
+          "rice_kg_pc": 242.3,
+          "wheat_kg_pc": 22.6,
+          "u": -8.7701
+        },
+        "Leximin": {
+          "xR": 110.24,
+          "xW": 9.18,
+          "rice_kg_pc": 201.0,
+          "wheat_kg_pc": 16.7,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Uttar Pradesh",
+      "H_i": 0.2293,
+      "sigma_i": 0.003,
+      "n_i": 54591285,
+      "a_i": 0.3782,
+      "rice_nfsa": 5947.61,
+      "wheat_nfsa": 3965.06,
+      "u_nfsa": -9.3768,
+      "alloc": {
+        "PRO": {
+          "xR": 9277.25,
+          "xW": 4189.1,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -9.1744
+        },
+        "wNSW": {
+          "xR": 6984.22,
+          "xW": 5234.37,
+          "rice_kg_pc": 127.9,
+          "wheat_kg_pc": 95.9,
+          "u": -9.1433
+        },
+        "Atkinson": {
+          "xR": 8204.66,
+          "xW": 5454.73,
+          "rice_kg_pc": 150.3,
+          "wheat_kg_pc": 99.9,
+          "u": -9.0568
+        },
+        "Leximin": {
+          "xR": 9526.94,
+          "xW": 5645.98,
+          "rice_kg_pc": 174.5,
+          "wheat_kg_pc": 103.4,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "Uttarakhand",
+      "H_i": 0.0967,
+      "sigma_i": 0.0076,
+      "n_i": 1136708,
+      "a_i": 0.3782,
+      "rice_nfsa": 248.9,
+      "wheat_nfsa": 152.56,
+      "u_nfsa": -8.731,
+      "alloc": {
+        "PRO": {
+          "xR": 193.17,
+          "xW": 87.23,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -9.1744
+        },
+        "wNSW": {
+          "xR": 145.43,
+          "xW": 108.99,
+          "rice_kg_pc": 127.9,
+          "wheat_kg_pc": 95.9,
+          "u": -9.1433
+        },
+        "Atkinson": {
+          "xR": 170.84,
+          "xW": 113.58,
+          "rice_kg_pc": 150.3,
+          "wheat_kg_pc": 99.9,
+          "u": -9.0568
+        },
+        "Leximin": {
+          "xR": 198.37,
+          "xW": 117.56,
+          "rice_kg_pc": 174.5,
+          "wheat_kg_pc": 103.4,
+          "u": -8.9788
+        }
+      }
+    },
+    {
+      "name": "West Bengal",
+      "H_i": 0.1189,
+      "sigma_i": 0.0042,
+      "n_i": 11838041,
+      "a_i": 0.8123,
+      "rice_nfsa": 2382.37,
+      "wheat_nfsa": 1588.25,
+      "u_nfsa": -8.5871,
+      "alloc": {
+        "PRO": {
+          "xR": 2011.76,
+          "xW": 908.4,
+          "rice_kg_pc": 169.9,
+          "wheat_kg_pc": 76.7,
+          "u": -8.8293
+        },
+        "wNSW": {
+          "xR": 3252.89,
+          "xW": 342.64,
+          "rice_kg_pc": 274.8,
+          "wheat_kg_pc": 28.9,
+          "u": -8.622
+        },
+        "Atkinson": {
+          "xR": 2868.87,
+          "xW": 268.07,
+          "rice_kg_pc": 242.3,
+          "wheat_kg_pc": 22.6,
+          "u": -8.7701
+        },
+        "Leximin": {
+          "xR": 2379.2,
+          "xW": 198.17,
+          "rice_kg_pc": 201.0,
+          "wheat_kg_pc": 16.7,
+          "u": -8.9788
+        }
+      }
+    }
+  ]
+}
